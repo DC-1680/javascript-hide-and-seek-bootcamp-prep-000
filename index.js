@@ -22,6 +22,6 @@ function increaseRankBy(n){
 function deepestChild(){
   //pulls out the most deeply nested child from `div#grand-node`.
   // (Remember, you can iterate over elements and call `querySelector()` and `querySelectorAll()` on them.
-
-  return document.getElementById('grand-node').querySelector();
+  let currElement = document.getElementById('grand-node').querySelector(div div div div); 
+  return currElement; 
 }
