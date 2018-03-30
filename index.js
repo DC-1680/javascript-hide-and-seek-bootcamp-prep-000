@@ -23,7 +23,7 @@ function deepestChild(){
   //pulls out the most deeply nested child from `div#grand-node`.
   // (Remember, you can iterate over elements and call `querySelector()` and `querySelectorAll()` on them.
 
-  var divs = var matches = document.querySelectorAll('div.grand-node');
+  var divs = document.querySelectorAll('div.grand-node');
 
 
 
