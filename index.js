@@ -25,5 +25,5 @@ function deepestChild(){
 
   var divs = document.getElementById('app').querySelector('#grand-node div div div div');
 
-  return divs
+  return divs;
 }
