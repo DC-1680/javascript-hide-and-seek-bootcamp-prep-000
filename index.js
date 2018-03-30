@@ -27,9 +27,9 @@ function deepestChild(){
 
 
   for (let i = 0; i < divs.length; i++) {
-    let currElement = divs[i].innerHTML; 
+    let currElement = divs[i].innerHTML;
     if(currElement.length > 0){
-      return currElement; 
+      return currElement;
     } else {
       deepestChild(currElement);
     }
