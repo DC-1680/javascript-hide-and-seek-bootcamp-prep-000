@@ -28,22 +28,11 @@ function deepestChild(){
 
   for (let i = 0; i < divs.length; i++) {
     let currElement = divs[i].innerHTML; 
-    if(currElement){
-      
+    if(currElement.length > 0){
+      return currElement; 
+    } else {
+      deepestChild(currElement);
     }
 
   }
-  while (current){
-      if( ) {//current is true
-        return current; 
-      }
-      if (Array.isArray(current)){
-        for let i=0; i<current.length; i++{
-          next.push(current[i]);
-        }
-      }
-      current = next.shift; 
-  }
-
-  return null; 
 }
