@@ -27,7 +27,6 @@ function deepestChild(){
   for(var i = 0; i < divs.length; i++){
      //do something to each div like
      let currElement = divs[i].innerHTML
-     deepestChild(currElement)
      return currElement;
   }
 
